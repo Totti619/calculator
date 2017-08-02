@@ -1,17 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package calculator.gui;
 
 import calculator.operations.*;
 import javax.swing.SwingUtilities;
 
-/**
- *
- * @author Master
- */
 public class CalculatorFrame extends javax.swing.JFrame {
 
     Double number1, number2;
@@ -409,7 +400,11 @@ public class CalculatorFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_buttonDivisionActionPerformed
 
     private void buttonPercentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonPercentActionPerformed
-        // TODO add your handling code here:
+        number1 = Double.parseDouble(display.getText());
+        cleanDisplay();
+        operation = new Percent();
+        operation.setNumber1(number1);
+        display.setText("" + operation.operate());
     }//GEN-LAST:event_buttonPercentActionPerformed
 
     private void buttonSignActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonSignActionPerformed
