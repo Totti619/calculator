@@ -1,5 +1,9 @@
 package calculator.operations;
 
+/**
+ *  @author Antonio Ortiz
+ */
+
 public abstract class Operation {
     Double number1, number2;
     public Operation(){}
@@ -21,5 +25,9 @@ public abstract class Operation {
         this.number2 = number2;
     }
     
+    
+    /**
+     *  @return the result of the operation
+     */
     public abstract Double operate();
 }

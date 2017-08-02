@@ -1,5 +1,9 @@
 package calculator.operations;
 
+/**
+ *  @author Antonio Ortiz
+ */
+
 public class Substraction extends Operation {
     public Substraction(){super();}
     public Substraction(Double number1, Double number2) {

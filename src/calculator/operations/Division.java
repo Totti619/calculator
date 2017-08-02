@@ -1,5 +1,9 @@
 package calculator.operations;
 
+/**
+ *  @author Antonio Ortiz
+ */
+
 public class Division extends Operation {
     public Division(){super();}
     public Division(Double number1, Double number2) {

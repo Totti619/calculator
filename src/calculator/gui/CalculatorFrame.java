@@ -3,6 +3,10 @@ package calculator.gui;
 import calculator.operations.*;
 import javax.swing.SwingUtilities;
 
+/**
+ *  @author Antonio Ortiz
+ */
+
 public class CalculatorFrame extends javax.swing.JFrame {
 
     Double number1, number2;

@@ -1,5 +1,9 @@
 package calculator.operations;
 
+/**
+ *  @author Antonio Ortiz
+ */
+
 public class Multiplication extends Operation {
     public Multiplication(){super();}
     public Multiplication(Double number1, Double number2) {

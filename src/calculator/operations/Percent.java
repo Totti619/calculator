@@ -1,5 +1,9 @@
 package calculator.operations;
 
+/**
+ *  @author Antonio Ortiz
+ */
+
 public class Percent extends Operation {
     public Percent(){
         super();
